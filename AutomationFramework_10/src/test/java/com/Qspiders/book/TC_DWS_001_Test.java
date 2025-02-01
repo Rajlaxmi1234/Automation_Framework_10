@@ -1,5 +1,6 @@
 package com.Qspiders.book;
 
+import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import org.testng.asserts.Assertion;
@@ -22,7 +23,7 @@ public class TC_DWS_001_Test extends BaseClass{
 		hp.getBooksLink().click();
 		org.testng.Assert.assertEquals(driver.getTitle(), "Demo Web Shop. Book","books page is not displayed");
 		test.log(Status.PASS, "Books page is displayed");
-		Reporter.Log("modification via gitHub",true);
+		Reporter.log("modification via gitHub",true);
 	}
 
 }
