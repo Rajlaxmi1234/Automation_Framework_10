@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="12" total="19" passed="4" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-30T20:31:51 IST" name="Suite" finished-at="2025-01-30T20:33:06 IST" duration-ms="74297">
+    <groups>
+    </groups>
+    <test started-at="2025-01-30T20:31:51 IST" name="Test" finished-at="2025-01-30T20:33:06 IST" duration-ms="74297">
+      <class name="com.Qspiders.electronics.TC_DWS_002_Test">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.Qspiders.electronics.TC_DWS_002_Test@6989da5e]" started-at="2025-01-30T20:32:04 IST" name="openBrowser" finished-at="2025-01-30T20:32:07 IST" duration-ms="3258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Qspiders.electronics.TC_DWS_002_Test@6989da5e]" started-at="2025-01-30T20:32:07 IST" name="login" finished-at="2025-01-30T20:32:10 IST" duration-ms="3577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="cellPhone()[pri:7, instance:com.Qspiders.electronics.TC_DWS_002_Test@6989da5e]" started-at="2025-01-30T20:32:10 IST" name="cellPhone" finished-at="2025-01-30T20:32:12 IST" duration-ms="1221" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[cell phone page is  not displayed expected [Demo Web Shop. Cell phone] but found [Demo Web Shop. Cell phones]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: cell phone page is  not displayed expected [Demo Web Shop. Cell phone] but found [Demo Web Shop. Cell phones]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at com.Qspiders.electronics.TC_DWS_002_Test.cellPhone(TC_DWS_002_Test.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cellPhone -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Qspiders.electronics.TC_DWS_002_Test@6989da5e]" started-at="2025-01-30T20:32:12 IST" name="logout" finished-at="2025-01-30T20:32:13 IST" duration-ms="859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Qspiders.electronics.TC_DWS_002_Test@6989da5e]" started-at="2025-01-30T20:32:13 IST" name="closeBrowser" finished-at="2025-01-30T20:32:13 IST" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Qspiders.electronics.TC_DWS_002_Test -->
+      <class name="com.Qspiders.computer.AddToCartTest">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.Qspiders.computer.AddToCartTest@7dcf94f8]" started-at="2025-01-30T20:32:55 IST" name="openBrowser" finished-at="2025-01-30T20:33:00 IST" duration-ms="5019" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Qspiders.computer.AddToCartTest@7dcf94f8]" started-at="2025-01-30T20:33:00 IST" name="login" finished-at="2025-01-30T20:33:03 IST" duration-ms="2725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addToCart()[pri:3, instance:com.Qspiders.computer.AddToCartTest@7dcf94f8]" started-at="2025-01-30T20:33:03 IST" name="addToCart" finished-at="2025-01-30T20:33:04 IST" duration-ms="1448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Qspiders.computer.AddToCartTest@7dcf94f8]" started-at="2025-01-30T20:33:04 IST" name="logout" finished-at="2025-01-30T20:33:05 IST" duration-ms="894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Qspiders.computer.AddToCartTest@7dcf94f8]" started-at="2025-01-30T20:33:05 IST" name="closeBrowser" finished-at="2025-01-30T20:33:06 IST" duration-ms="480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Qspiders.computer.AddToCartTest -->
+      <class name="com.Qspiders.book.TC_DWS_001_Test">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.Qspiders.book.TC_DWS_001_Test@139982de]" started-at="2025-01-30T20:32:24 IST" name="openBrowser" finished-at="2025-01-30T20:32:27 IST" duration-ms="3275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Qspiders.book.TC_DWS_001_Test@139982de]" started-at="2025-01-30T20:32:27 IST" name="login" finished-at="2025-01-30T20:32:32 IST" duration-ms="4374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="clickOnBooks()[pri:1, instance:com.Qspiders.book.TC_DWS_001_Test@139982de]" started-at="2025-01-30T20:32:32 IST" name="clickOnBooks" finished-at="2025-01-30T20:32:33 IST" duration-ms="1251" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[books page is not displayed expected [Demo Web Shop. Book] but found [Demo Web Shop. Books]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: books page is not displayed expected [Demo Web Shop. Book] but found [Demo Web Shop. Books]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at com.Qspiders.book.TC_DWS_001_Test.clickOnBooks(TC_DWS_001_Test.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnBooks -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Qspiders.book.TC_DWS_001_Test@139982de]" started-at="2025-01-30T20:32:33 IST" name="logout" finished-at="2025-01-30T20:32:34 IST" duration-ms="856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Qspiders.book.TC_DWS_001_Test@139982de]" started-at="2025-01-30T20:32:34 IST" name="closeBrowser" finished-at="2025-01-30T20:32:35 IST" duration-ms="492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Qspiders.book.TC_DWS_001_Test -->
+      <class name="com.Qspiders.computer.TC_DWS_003_Test">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.Qspiders.computer.TC_DWS_003_Test@217ed35e]" started-at="2025-01-30T20:32:45 IST" name="openBrowser" finished-at="2025-01-30T20:32:50 IST" duration-ms="4943" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Qspiders.computer.TC_DWS_003_Test@217ed35e]" started-at="2025-01-30T20:32:50 IST" name="login" finished-at="2025-01-30T20:32:53 IST" duration-ms="2891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="desktop()[pri:5, instance:com.Qspiders.computer.TC_DWS_003_Test@217ed35e]" started-at="2025-01-30T20:32:53 IST" name="desktop" finished-at="2025-01-30T20:32:54 IST" duration-ms="1071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- desktop -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Qspiders.computer.TC_DWS_003_Test@217ed35e]" started-at="2025-01-30T20:32:54 IST" name="logout" finished-at="2025-01-30T20:32:55 IST" duration-ms="914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Qspiders.computer.TC_DWS_003_Test@217ed35e]" started-at="2025-01-30T20:32:55 IST" name="closeBrowser" finished-at="2025-01-30T20:32:55 IST" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Qspiders.computer.TC_DWS_003_Test -->
+      <class name="com.Qspiders.computer.TC_DWS_002_Test">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.Qspiders.computer.TC_DWS_002_Test@385c9627]" started-at="2025-01-30T20:32:13 IST" name="openBrowser" finished-at="2025-01-30T20:32:19 IST" duration-ms="5347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Qspiders.computer.TC_DWS_002_Test@385c9627]" started-at="2025-01-30T20:32:19 IST" name="login" finished-at="2025-01-30T20:32:22 IST" duration-ms="2815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="clickOnComputer()[pri:4, instance:com.Qspiders.computer.TC_DWS_002_Test@385c9627]" started-at="2025-01-30T20:32:22 IST" name="clickOnComputer" finished-at="2025-01-30T20:32:23 IST" duration-ms="1171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnComputer -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Qspiders.computer.TC_DWS_002_Test@385c9627]" started-at="2025-01-30T20:32:23 IST" name="logout" finished-at="2025-01-30T20:32:24 IST" duration-ms="891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Qspiders.computer.TC_DWS_002_Test@385c9627]" started-at="2025-01-30T20:32:24 IST" name="closeBrowser" finished-at="2025-01-30T20:32:24 IST" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Qspiders.computer.TC_DWS_002_Test -->
+      <class name="com.Qspiders.electronics.TC_DWS_001_Test">
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.Qspiders.electronics.TC_DWS_001_Test@682b2fa]" started-at="2025-01-30T20:32:35 IST" name="openBrowser" finished-at="2025-01-30T20:32:40 IST" duration-ms="5041" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Qspiders.electronics.TC_DWS_001_Test@682b2fa]" started-at="2025-01-30T20:32:40 IST" name="login" finished-at="2025-01-30T20:32:42 IST" duration-ms="2435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="electronics()[pri:6, instance:com.Qspiders.electronics.TC_DWS_001_Test@682b2fa]" started-at="2025-01-30T20:32:42 IST" name="electronics" finished-at="2025-01-30T20:32:43 IST" duration-ms="1164" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[camera  page is  not displayed expected [Demo Web Shop. Camera, phot] but found [Demo Web Shop. Camera, photo]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: camera  page is  not displayed expected [Demo Web Shop. Camera, phot] but found [Demo Web Shop. Camera, photo]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at com.Qspiders.electronics.TC_DWS_001_Test.electronics(TC_DWS_001_Test.java:20)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- electronics -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Qspiders.electronics.TC_DWS_001_Test@682b2fa]" started-at="2025-01-30T20:32:44 IST" name="logout" finished-at="2025-01-30T20:32:44 IST" duration-ms="902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Qspiders.electronics.TC_DWS_001_Test@682b2fa]" started-at="2025-01-30T20:32:44 IST" name="closeBrowser" finished-at="2025-01-30T20:32:45 IST" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.Qspiders.electronics.TC_DWS_001_Test -->
+      <class name="com.Qspiders.book.TC_DWS_002_Test">
+        <test-method is-config="true" signature="configureReport()[pri:0, instance:com.Qspiders.book.TC_DWS_002_Test@6150c3ec]" started-at="2025-01-30T20:31:51 IST" name="configureReport" finished-at="2025-01-30T20:31:51 IST" duration-ms="551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureReport -->
+        <test-method is-config="true" signature="openBrowser(java.lang.String)[pri:0, instance:com.Qspiders.book.TC_DWS_002_Test@6150c3ec]" started-at="2025-01-30T20:31:51 IST" name="openBrowser" finished-at="2025-01-30T20:31:57 IST" duration-ms="6189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:com.Qspiders.book.TC_DWS_002_Test@6150c3ec]" started-at="2025-01-30T20:31:58 IST" name="login" finished-at="2025-01-30T20:32:00 IST" duration-ms="2520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="sortby()[pri:2, instance:com.Qspiders.book.TC_DWS_002_Test@6150c3ec]" started-at="2025-01-30T20:32:00 IST" name="sortby" finished-at="2025-01-30T20:32:02 IST" duration-ms="2241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortby -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:com.Qspiders.book.TC_DWS_002_Test@6150c3ec]" started-at="2025-01-30T20:32:02 IST" name="logout" finished-at="2025-01-30T20:32:03 IST" duration-ms="891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Qspiders.book.TC_DWS_002_Test@6150c3ec]" started-at="2025-01-30T20:32:03 IST" name="closeBrowser" finished-at="2025-01-30T20:32:04 IST" duration-ms="427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="reportBackup()[pri:0, instance:com.Qspiders.book.TC_DWS_002_Test@6150c3ec]" started-at="2025-01-30T20:33:06 IST" name="reportBackup" finished-at="2025-01-30T20:33:06 IST" duration-ms="745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportBackup -->
+      </class> <!-- com.Qspiders.book.TC_DWS_002_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
