@@ -40,8 +40,7 @@ public class BaseClass {
 
 	@BeforeSuite
 	public void configureReport() {
-		ExtentSparkReporter spark = new ExtentSparkReporter(
-				"./HTML_report/ExtentReport_" + jutil.getSystemTime() + ".html");
+		ExtentSparkReporter spark = new ExtentSparkReporter("./HTML_report/ExtentReport_" + jutil.getSystemTime() + ".html");
 		extReport = new ExtentReports();
 		extReport.attachReporter(spark);
 	}
